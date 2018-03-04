@@ -1,0 +1,37 @@
+﻿namespace WindowsInputRecorder.Packets
+{
+    public enum PacketID : byte
+    {
+        Wait,
+        KeyDown,
+        KeyDownExtended,
+        KeyUp,
+        KeyUpExtended,
+        KeyPress,
+        KeyPressExtended,
+        Move,
+        MoveRelative,
+        LeftDown,
+        LeftUp,
+        RightDown,
+        RightUp,
+        MiddleDown,
+        MiddleUp,
+        WheelDown,
+        WheelUp,
+        X1Down,
+        X2Down,
+        X1Up,
+        X2Up,
+        HWheelLeft,
+        HWheelRight,
+        LeftClick,
+        RightClick,
+        MiddleClick,
+        X1Click,
+        X2Click,
+        Hardware,
+        SendChar,
+        SendText,
+    }
+}
